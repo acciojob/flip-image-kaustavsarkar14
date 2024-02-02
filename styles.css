@@ -1,4 +1,13 @@
 /* Your CSS code here. */
 #flip {
-	width:10rem;
+  width: 200px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  background-image: url('https://images.pexels.com/photos/6785279/pexels-photo-6785279.jpeg');
+  background-size: cover;
+  transition: background-image 0.5s; /* Add transition for smooth effect */
+}
+
+#flip:hover {
+  background-image: url('https://live.staticflickr.com/8138/29099429912_0659caf55b_b.jpg');
+  cursor: pointer; /* Add pointer cursor on hover if needed */
 }
